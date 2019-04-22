@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func btnShow(_ sender: Any) {
+        showTxt.text = "Hello"
+    }
+    @IBOutlet var showTxt: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
